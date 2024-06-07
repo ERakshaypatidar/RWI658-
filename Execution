@@ -1,0 +1,23 @@
+1) What is interpreter?
+2) what is JIT Compiler?
+3)what is JDK,JRE,JVM?
+
+1) interpreter?
+      Java interpreter is a computer program (system software) that implements the JVM. 
+      It is responsible for reading and executing the program. 
+      It is designed in such a way that it can read the source program and translate the source code instruction by instruction.
+2) JIT Compiler?
+        The JIT or Just-In-Time compiler is an essential part of the JRE (Java Runtime Environment), that is responsible for performance optimization of java based applications during run time. 
+         The compiler is one of the key aspects in deciding the performance of an application for both parties i.e.
+          the end-user and the application developer. 
+          Let us check the Just In Time Compiler in Java in more detail.
+3) JDK ,JRE,JVM?
+JDK:- The Java Development Kit (JDK) is a cross-platformed software development environment that offers a collection of tools and libraries necessary for developing Java-based software applications and applets.
+It is a core package used in Java, along with the JVM (Java Virtual Machine) and the JRE (Java Runtime Environment). 
+
+JRE:- Java Runtime Environment (JRE) is an open-access software distribution that has a Java class library, specific tools, and a separate JVM. In Java, JRE is one of the interrelated components in the Java Development Kit (JDK). 
+      It is the most common environment available on devices for running Java programs. 
+      Java source code is compiled and converted to Java bytecode. If you want to run this bytecode on any platform, you need JRE.
+      The JRE loads classes check memory access and get system resources. JRE acts as a software layer on top of the operating system.
+
+JVM:- JVM (Java Virtual Machine) is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed.
