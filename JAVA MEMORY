@@ -1,0 +1,38 @@
+
+!) what is heap?
+2) what is stack?
+3) what is methods?
+4) what is pc Register?
+5) Native Mathod Aria?
+
+
+1) HEAP:-
+      Heap stores the actual objects. It creates when the JVM starts up.
+    The user can control the heap if needed. It can be of fixed or dynamic size.
+    When you use a new keyword, the JVM creates an instance for the object in a heap.
+   While the reference of that object stores in the stack. There exists only one heap for each running JVM process.
+
+2) Stack?
+     Stack Area generates when a thread creates. It can be of either fixed or dynamic size.
+     The stack memory is allocated per thread. It is used to store data and partial results.
+      It contains references to heap objects. It also holds the value itself rather than a reference to an object from the heap.
+      The variables which are stored in the stack have certain visibility, called scope
+3) Methods?
+      Method Area is a part of the heap memory which is shared among all the threads.
+     It creates when the JVM starts up. It is used to store class structure, superclass name, interface name, and constructors.
+      The JVM stores the following kinds of information in the method area:
+
+      A Fully qualified name of a type (ex: String)
+      The type's modifiers
+      Type's direct superclass nameA structured list of the fully qualified names of super interfaces.
+
+5)PC Register?
+    Each thread has a Program Counter (PC) register associated with it.
+    PC register stores the return address or a native pointer. 
+    It also contains the address of the JVM instructions currently being executed.
+
+6) Native Method Aria?
+    It is also known as C stack. It is a stack for native code written in a language other than Java.
+    Java Native Interface (JNI) calls the native stack. The performance of the native stack depends on the OS
+
+      
