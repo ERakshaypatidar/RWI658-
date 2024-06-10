@@ -1,0 +1,94 @@
+===================================================================
+1. What is Java?
+2. Who invented Java?
+3. Why Java is invented?
+4. Types of applications- SA and IA?
+
+5. What is platform, Platform dependency, platform independency?
+6. Why C and C++ lanaguges are PD?
+7. How Java achieved PI?
+8. Import facts on Java program and Java software?
+9. Types of Java softwares[JDK and JRE]?
+10. Why JRE is removed in Java 11v?
+===================================================================
+
+1. What is Java?
+ - Java is a platform independent 
+   multi-paradigm programming language.
+
+   Note: Multi-Paradigm means it supports 
+   multiple styles of programming 
+
+   	Java supports 
+	  1. Object-Oriented programming [From beginning version 1.0]
+	  2. Functional programming      [From Java 8v]
+	  3. Modular programming	 [From Java 9v]
+	  4. Data-Oriented programming	 [From Java 17v]
+	  5. Procedural programming      [From Java 22v] 
+	  
+	- In future versions it may also support 
+	  scripting style programing 
+
+   - For proof visit the website 
+	  openjdk.org -> scroll down -> click on 21 -> click on 445 link
+	  -> scroll down you can find a statement "Java is multi-paradigm language"
+2. Who invented Java?
+   - Java is invented by Mr. James Gosling
+     in SUN Microsystems in the year 1991.
+
+   - It is released in the year 1995. The version is
+     released only for testing purpose.
+
+   - The first version for project development is 
+     released in the year 1996 as Java 1.0.
+
+   - The latest version of Java is 22 
+     it is released on Mar 19th 2024.
+
+   - Currently Java is with Oracle Corporation
+     In the year 2010 (the version number Java 7)
+     Oracle Corporation acquired Java and all other 
+     products of SUN Microsystems.
+3. Why Java is invented?
+   - Java is invented to achieve platform independency
+     for developing internet based business applications
+4. Types of applications?
+     - In the computer world all softwares or project or applications
+       are basically divided into two types
+          1. Stand-alone applications
+	  2. Internet applications
+
+      - Stand-alone application
+         - An application that is installed in one system
+	   and if it is accessible only within this system
+	   with a local call, and can not be accessibile from
+	   other systems with a network via internet
+	   then we call it as stand-alone application.
+
+         - A stand-alone application is a single user 
+	   and single computer application.
+
+	 - For example:
+	 	Calc, Notepad, Antivirus, MS-Office, game softwares,
+                browser, mobile apps, ...
+
+       - Internet application
+         - An application that is installed in one system
+	   and if it is accessible from other systems 
+	   with a network via internet is called as 
+	   internet application.
+
+         - An internet application is a multi user 
+	   and multi computer application.
+
+	 - For example:
+	 	youtube, instagram, facebook, amazon, zoom software, etc...
+
+	
+	Conclusion:
+	  -> Any software you install in your system and use it,
+	     it is a stand-alone application
+
+	  -> Any software you access it via browser and use it
+	     without installing in your system, then it is 
+	     internet application
